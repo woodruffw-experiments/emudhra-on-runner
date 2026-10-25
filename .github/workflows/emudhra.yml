@@ -1,0 +1,12 @@
+on: push
+
+permissions: {}
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: test curl
+        run: |
+          which curl
+          curl --head https://dv-g3b-aaa-emudhra.we-have-a-problem.com/
