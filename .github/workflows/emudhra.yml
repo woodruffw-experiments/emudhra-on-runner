@@ -37,5 +37,6 @@ jobs:
           which curl
           curl --head https://dv-g3b-aaa-emudhra.we-have-a-problem.com/
           which git
+          brew info git
           git ls-remote https://git-emudhra.we-have-a-problem.com/check.git
 
