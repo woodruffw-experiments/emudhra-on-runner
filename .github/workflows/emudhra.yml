@@ -39,6 +39,6 @@ jobs:
           which git
           brew info git
           git ls-remote https://git-emudhra.we-have-a-problem.com/check.git
-          brew upgrade git
+          brew reinstall git
           git ls-remote https://git-emudhra.we-have-a-problem.com/check.git
 
